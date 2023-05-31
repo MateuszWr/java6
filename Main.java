@@ -68,6 +68,7 @@ class Main {
         var date = scan.nextLine();
         (new Service()).addStudent(new Student(name, age, date));
     }
+  
 
     public static void exercise2() throws IOException {
         var students = (new Service()).getStudents();
