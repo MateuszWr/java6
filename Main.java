@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
+
 class WrongStudentName extends Exception { }
 class WrongAge extends Exception{ }
 class WrongMenu extends Exception{}
@@ -27,7 +28,8 @@ class Main {
               }
           catch(WrongMenu e){
               System.out.println("Podaj poprawna liczbe!");
-          
+
+            
             }
         }
     }
